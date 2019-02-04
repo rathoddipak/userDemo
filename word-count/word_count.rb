@@ -12,5 +12,3 @@ class Phrase
     end
   end
 end
-word = Phrase.new('Hello Hiii Hello hiii HIII \'hiii\'')
-puts word.word_count
