@@ -11,6 +11,10 @@ class Scrabble
     }
   end
 
+  def self.score(str)
+    new(str).score
+  end
+
   def score
     total_score = 0
     word = string.to_s.downcase.split('')
@@ -20,5 +24,3 @@ class Scrabble
     total_score
   end
 end
-# s = Scrabble.new(nil)
-# puts s.score.to_s
